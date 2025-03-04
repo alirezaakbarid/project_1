@@ -24,8 +24,8 @@ def insert():
 
 
 
-
-lbl_fname=Label(win,text="fname",font="calibri 11")
+print('*********************')
+lbl_fname=Label(win,text="fname",font="calibri 14"fg = 'red')
 lbl_fname.place(x=20,y=20)
 ent_fname=Entry(win,font="calibri11")
 ent_fname.place(x=70,y=20)
